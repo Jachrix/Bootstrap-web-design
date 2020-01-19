@@ -20,7 +20,7 @@
 
         
     </head>
-    <body>
+    <body data-spy="scroll" data-target="#main-navbar">
 
         <!-- NAVBAR -->
         <nav class="navbar navbar-inverse navbar-fixed-top" id="main-navbar" role="navigation">
@@ -40,7 +40,7 @@
                     <ul class="nav navbar-nav">
                         <li><a href="#section-testimonials">Testimonials</a></li>
                         <li><a href="#section-gallery">Gallery</a></li>
-                        <li><a href="#section-feaures">Features</a></li>
+                        <li><a href="#section-features">Features</a></li>
                         <li><a href="#section-f.a.q">F.A.Q</a></li>
                         <li><a href="#section-contact">Contact</a></li>
                     </ul>
@@ -69,19 +69,19 @@
                 </div><!-- page header ends here -->
     
                 <div class="row">
-                    <div class="col-lg-4">
+                    <div class="col-md-4">
                         <blockquote>
                             <p>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. </p>
                             <footer>Site Author</footer>
                         </blockquote>
                     </div>
-                    <div class="col-lg-4">
+                    <div class="col-md-4">
                         <blockquote>
                             <p>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. </p>
                             <footer>Site Author</footer>
                         </blockquote>
                     </div>
-                    <div class="col-lg-4">
+                    <div class="col-md-4">
                         <blockquote>
                             <p>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. </p>
                             <footer>Site Author</footer>
@@ -92,37 +92,38 @@
                 <p class="text-center"><a href="#section-contact" class="btn btn-default">Contact Us</a></p>
             </section>
 
+            <!-- FEATURE -->
+
             <section>
                 <div class="page-header" id="section-features">
                     <h2>Features. <small>What it is all about. </small></h2>
                 </div><!-- end page header -->
 
                 <div class="row">
-                    <div class="col-lg-8">
+                    <div class="col-sm-8">
                         <h3>This is a feature title.</h3>
                         <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable.</p>
                     </div>
-                    <div class="col-lg-4">
+                    <div class="col-sm-4">
                         <img src="images/Lighthouse.jpg" alt="Feature image" class="img-responsive">
                     </div>                    
                 </div><!-- end row -->
-
                 <div class="row">
-                    <div class="col-lg-8">
+                    <div class="col-sm-8">
                         <h3>This is a feature title.</h3>
                         <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable.</p>
                     </div>
-                    <div class="col-lg-4">
+                    <div class="col-sm-4">
                         <img src="images/Koala.jpg" alt="Feature image" class="img-responsive">
                     </div>                    
                 </div><!-- end row -->
 
                 <div class="row">
-                    <div class="col-lg-8">
+                    <div class="col-sm-8">
                         <h3>This is a feature title.</h3>
                         <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable.</p>
                     </div>
-                    <div class="col-lg-4">
+                    <div class="col-sm-4">
                         <img src="images/Penguins.jpg" alt="Feature image" class="img-responsive">
                     </div>                    
                 </div><!-- end row -->
@@ -130,7 +131,7 @@
                 <hr>
 
                 <div class="row">
-                    <div class="col-lg-4">
+                    <div class="col-sm-4">
                         <div class="panel panel-default text-center">
                             <div class="panel-body">
                                 <span class="glyphicon glyphicon-search"></span>
@@ -139,7 +140,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-lg-4">
+                    <div class="col-sm-4">
                         <div class="panel panel-default text-center">
                             <div class="panel-body">
                                 <span class="glyphicon glyphicon-ok"></span>
@@ -148,7 +149,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-lg-4">
+                    <div class="col-sm-4">
                         <div class="panel panel-default text-center">
                             <div class="panel-body">
                                 <span class="glyphicon glyphicon-time"></span>
@@ -323,9 +324,40 @@
                             </div>
                         </form>
                     </div>
-                </div>
-
+                </div><!-- end row -->
             </section>
+
+            <!-- FOOTER -->
+            <footer>
+                <hr>
+
+                <div class="container text-center">
+                    <h3>Subscribe now for a 30 days free trial!</h3>
+                    <p>Enter your name and email below</p>
+
+                    <form action="" class="form-inline" role="form">
+                        <div class="form-group">
+                            <label for="subscribe-name" class="sr-only">Name</label>
+                            <input type="text" class="form-control" id="subscribe-name" placeholder="Name">
+                        </div><!-- end form group -->
+                        <div class="form-group">
+                            <label for="subscribe-email" class="sr-only">Email Address</label>
+                            <input type="email" class="form-control" id="subscribe-name" placeholder="Email">
+                        </div><!-- end form group -->
+                        <button type="submit" class="btn btn-default">Subscribe</button>
+                        <p><small><em>We will only use your email address for sending the download link</em></small></p>
+                    </form> 
+                    <hr>
+
+                    <ul class="list-inline"> 
+                        <li><a href="#">Twitter</a></li>
+                        <li><a href="#">Facebook</a></li>
+                    </ul>
+
+                    <p>&copy; Copyright 2020.</p>                   
+                </div><!-- end container -->               
+
+            </footer>
         </div><!-- end container -->
 
         <script src="http://code.jquery.com/jquery-2.1.0.min.js"></script>      
